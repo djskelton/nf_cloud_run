@@ -11,7 +11,7 @@ process main {
   file indir
 
   output:
-  file indir
+  file indir into complete
 
   script:
   """
